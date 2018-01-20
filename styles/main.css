@@ -1,0 +1,36 @@
+body{
+  width:1500px;
+  margin: auto;
+  background-color: grey;
+  color: orange;
+}
+
+.icon{
+  color:orange;
+  display: inline;
+}
+
+
+
+main{
+  display:inline;
+  margin: auto;
+}
+
+#content{
+  width: 75%;
+  margin: auto;
+}
+
+#mainPhoto{
+  display:inline;
+  float: left;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin: 0% 10%;
+}
+
+#socialMedia{
+
+}
