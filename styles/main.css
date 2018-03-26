@@ -1,36 +1,30 @@
 body{
-  width:1500px;
-  margin: auto;
-  background-color: grey;
-  color: orange;
+	width: 80%;
+	margin: auto;
+	font-family: Arial, sans-serif, serif;
 }
 
-.icon{
-  color:orange;
-  display: inline;
+section{
+	width: 100%;
 }
 
-
-
-main{
-  display:inline;
-  margin: auto;
+#introductionHeader{
+	width:50%;
+	margin: auto;
 }
 
-#content{
-  width: 75%;
-  margin: auto;
+#introductionHeader > p{
+	width: 50%;
+	margin: auto;
 }
 
-#mainPhoto{
-  display:inline;
-  float: left;
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
-  margin: 0% 10%;
+#photobreak{
+	width: 50%;
+	margin: auto;
 }
 
-#socialMedia{
-
+#photobreak > img{
+	width: 640px;
+	height: 640px;
+	margin: auto;
 }
