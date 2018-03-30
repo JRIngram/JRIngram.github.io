@@ -60,5 +60,7 @@ a:hover{
 #photobreak > img{
 	width: 80%;
 	height: 80%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
