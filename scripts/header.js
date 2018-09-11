@@ -18,13 +18,10 @@ If the window width is less than 1350px then the title is split into two lines a
 If the window width is greater than 1350px then the title is placed as one line with a hyphen splitting the name and job.
 */
 function reformatTitle(windowSize){
-	console.log("REFORMAT: " + windowSize)
 	if(windowSize > 1350){	
-		console.log("UH OH!")
 		title.innerHTML = '<h1>Jamie Ingram - Software Developer</h1>';
 	}
 	else if (windowSize < 1350){
-		console.log("WOOOOOOOOOOO!")
 		title.innerHTML = '<h1>Jamie Ingram</h1><h1>Software Developer</h1>';
 	}
 }
