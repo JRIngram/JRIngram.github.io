@@ -1,43 +1,26 @@
 body{
-	width: 80%;
 	margin: auto;
 	font-family: Arial, sans-serif, serif;
 	font-size: 100%;
-	color: #353535;
+	color: #252525;
 	background-color: #EEE;
+	width: 80%;
 }
 
-section > p{
-	font-size: 1.2em;
+main{
+	margin: auto;
 }
 
 header{
-	width: 100%;
 	margin: auto;
-}
-
-header h1{
-	width: 100%;
-	margin: auto;
-}
-
-footer{
-	width: 100%;
-	font-size: .75em;
-	color: #555;
-}
-
-footer > p{
-	margin: auto;
-	width: 50%;
-}
-
-
-
-section{
 	width: 100%;
 }
 
+section > p{
+	font-size: 1em;
+}
+
+/* Links */
 a{
 	color: #3291C1;
 	text-decoration: none;
@@ -51,35 +34,6 @@ a:hover{
 	color: #2279A8;	
 }
 
-#introductionHeader{
-	width:50%;
-	margin: auto;
-}
-
-#introductionHeader > p{
-	width: 50%;
-	margin: auto;
-}
-
-#photobreak{
-	width: 50%;
-	margin: auto;
-}
-
-#photobreak > img{
-	width: 70%;
-	height: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-@media (max-width: 1100px){
-	#photobreak > img{
-		width: 100%;
-		height: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		display: block;
-	}
+#contactList{
+	list-style-type: none;
 }
