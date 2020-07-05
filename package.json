@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:e2e": "npx wdio wdio.conf.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "@wdio/sync": "^6.1.14",
     "chromedriver": "^83.0.0",
     "wdio-chromedriver-service": "^6.0.3"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
   }
 }
