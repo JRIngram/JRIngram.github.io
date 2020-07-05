@@ -16,24 +16,26 @@ header{
 	width: 100%;
 }
 
+#subtitle{
+	font-size: 20px;
+	font-weight: bold;
+}
+
 section > p{
-	font-size: 1em;
+	font-size: 18px;
 }
 
 /* Links */
 a{
-	color: #3291C1;
-	text-decoration: none;
+	color: #026191;
+	text-decoration: underline;
 }
 
 a:visited{
 	color: #026191;
+	text-decoration: underline;
 }
 
 a:hover{
 	color: #2279A8;	
-}
-
-#contactList{
-	list-style-type: none;
 }
