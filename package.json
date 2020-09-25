@@ -18,14 +18,14 @@
   },
   "homepage": "https://github.com/JRIngram/JRIngram.github.io#readme",
   "devDependencies": {
-    "@wdio/cli": "^6.1.24",
-    "@wdio/local-runner": "^6.1.24",
-    "@wdio/mocha-framework": "^6.1.19",
-    "@wdio/spec-reporter": "^6.1.23",
-    "@wdio/sync": "^6.1.14",
+    "@wdio/cli": "^6.5.2",
+    "@wdio/local-runner": "^6.5.2",
+    "@wdio/mocha-framework": "^6.5.0",
+    "@wdio/spec-reporter": "^6.4.7",
+    "@wdio/sync": "^6.5.0",
     "chai": "^4.2.0",
-    "chromedriver": "^83.0.0",
-    "wdio-chromedriver-service": "^6.0.3"
+    "chromedriver": "^85.0.1",
+    "wdio-chromedriver-service": "^6.0.4"
   },
   "dependencies": {}
 }
