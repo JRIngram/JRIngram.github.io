@@ -4,10 +4,10 @@ body{
 	font-size: 100%;
 	color: #252525;
 	background-color: #EEE;
-	width: 80%;
 }
 
 main{
+	width: 80%;
 	margin: auto;
 }
 
@@ -16,9 +16,37 @@ header{
 	width: 100%;
 }
 
-#subtitle{
+/* nav bar */
+nav {
+	background-color: #66023C;
+	overflow: hidden;
+}
+
+nav > div {
+	width: 80%;
+	margin: auto;
+}
+  
+nav a {
+	float: left;
+	display: block;
+	color: #00e2da;
+	padding: 20px;
+	text-decoration: none;
 	font-size: 20px;
-	font-weight: bold;
+}
+
+nav a:visited{
+	color: #00e2da;
+}
+
+nav a:hover{
+	color: #0c9793;	
+}
+
+/* text */
+h1{
+	font-size: 30px;
 }
 
 section > p{
