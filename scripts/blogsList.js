@@ -4,7 +4,7 @@ function loadBlogList(){
     for(var i = 0; i < blogs.length; i++){
         var hyphenatedTitle = blogs[i].title.toLowerCase().replaceAll(' ', '-');
         var blogURL = blogs[i].date + '-' + hyphenatedTitle;
-        blogListHTML += '<a href="blog.html#' + blogURL + '"><article>' +
+        blogListHTML += '<a class="blogLink" href="blog.html#' + blogURL + '"><article>' +
                 '<h2>' + blogs[i].title + '</h2>' + 
                 '<p class="blogDate">' + blogs[i].date + '</p>' + 
                 '<p class="teaser">' + blogs[i].teaser + '</p>' +

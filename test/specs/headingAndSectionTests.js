@@ -19,11 +19,8 @@ describe('Headings', () => {
 
     it('Should display the page title and subtitle', () => {
         const title = $('h1');
-        const subtitle = $('#subtitle');
         expectChai(title.getText()).to.equal('Jamie Ingram');
-        expectChai(subtitle.getText()).to.equal('Software Developer')
         expect(title.isDisplayed()).toBe(true);
-        expect(subtitle.isDisplayed()).toBe(true);
     });
 });
 
