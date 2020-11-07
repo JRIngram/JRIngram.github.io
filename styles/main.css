@@ -85,8 +85,9 @@ a:hover{
 
 #blogList article{ 
 	background-color: #F5F5F5;
-	border-radius: 10px;
-	box-shadow: 3px 3px 5px #888888;
+	border-width: 0px 0px 1px 0px;
+	border-color: #888;
+	border-style: solid;
 }
 
 #blogList article > p { 
@@ -97,10 +98,19 @@ a:hover{
 	font-size: 25px;
 }
 
+.blogTitle{
+	text-decoration: underline;
+}
+
 .blogDate {
 	font-size: 18px;
 	font-style: italic;
 	color: #666;
+	margin-left: 5%;
+}
+
+.teaser{
+	margin-left: 5%;
 }
 
 /* Blogs */
