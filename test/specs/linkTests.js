@@ -1,15 +1,16 @@
 const { expect } = require("chai");
 
-const URL = "file:///E:/Users/Jamie/Documents/Programming/JRIngram.github.io/index.html";
+const pathToProject = 'file:///E:/Users/Jamie/Documents/Programming/';
+const homepageURL = `${pathToProject}JRIngram.github.io/index.html`;
 
 describe('Contact links', () => {
     before(() => {
-        browser.url(URL);
+        browser.url(homepageURL);
     });
 
     afterEach(() => {
         browser.closeWindow();
-        browser.switchWindow(URL); 
+        browser.switchWindow(homepageURL); 
     });
 
     it('Goes to Github when clicking the GitHub link', () =>{
@@ -23,12 +24,12 @@ describe('Contact links', () => {
 
 describe('Project Links', () => {
     before(() => {
-        browser.url(URL);
+        browser.url(homepageURL);
     });
 
     afterEach(() => {
         browser.closeWindow();
-        browser.switchWindow(URL); 
+        browser.switchWindow(homepageURL); 
     });
 
     describe('Unit Convert App', () => {

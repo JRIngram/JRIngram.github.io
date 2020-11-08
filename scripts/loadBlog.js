@@ -7,7 +7,6 @@ function getBlogData() {
         var hyphenatedTitle = blogs[i].title.toLowerCase().replaceAll(' ', '-');
         var blogURL = blogs[i].date + '-' + hyphenatedTitle;
         if(requestedURL == blogURL){
-            console.log("GOOOOT HERE LADDIE")
             blog = blogs[i];
             break;
         }

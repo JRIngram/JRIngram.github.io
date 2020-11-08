@@ -1,7 +1,8 @@
 const expectChai = require("chai").expect;
-const homepageURL = "file:///E:/Users/Jamie/Documents/Programming/JRIngram.github.io/index.html";
-const blogListURL = "file:///E:/Users/Jamie/Documents/Programming/JRIngram.github.io/blogs-list.html"
-const blogPageURL = "file:///E:/Users/Jamie/Documents/Programming/JRIngram.github.io/blog.html#07-11-2020-my-hacktoberfest-2020-contributions";
+const pathToProject = 'file:///E:/Users/Jamie/Documents/Programming/';
+const homepageURL = `${pathToProject}JRIngram.github.io/index.html`;
+const blogListURL = `${pathToProject}JRIngram.github.io/blogs-list.html`;
+const blogPageURL = `${pathToProject}JRIngram.github.io/blog.html#08-11-2020-my-hacktoberfest-2020-contributions`;
 
 describe('Navbar tests', () => {
     beforeEach(() => {
@@ -11,7 +12,6 @@ describe('Navbar tests', () => {
     describe('Home page', () => {
         it('Home link should keep user to the current page', () => {
             const homePageLink = $('=Home'); 
-            console.log(homePageLink);
             homePageLink.click();
             const title = $('h1');
             expectChai(title.getText()).to.equal('Jamie Ingram');

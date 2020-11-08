@@ -1,20 +1,22 @@
 const expectChai = require('chai').expect;
-const URL = "file:///E:/Users/Jamie/Documents/Programming/JRIngram.github.io/index.html";
+
+const pathToProject = 'file:///E:/Users/Jamie/Documents/Programming/';
+const homepageURL = `${pathToProject}JRIngram.github.io/index.html`;
 
 describe('Title', () => {
     before(() => {
-        browser.url(URL);
+        browser.url(homepageURL);
     });
 
     it('should have the correct title', () => {
-        browser.url(URL);
+        browser.url(homepageURL);
         expect(browser).toHaveTitle('Jamie Ingram | Software Developer');
     })
 });
 
 describe('Headings', () => {
     before(() => {
-        browser.url(URL);
+        browser.url(homepageURL);
     });
 
     it('Should display the page title and subtitle', () => {
@@ -26,7 +28,7 @@ describe('Headings', () => {
 
 describe('Correct sections exist', () => {
     before(() => {
-        browser.url(URL);
+        browser.url(homepageURL);
     });
 
     it('About Me', () => {
