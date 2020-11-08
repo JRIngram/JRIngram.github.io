@@ -83,6 +83,16 @@ a:hover{
 	text-decoration: none;
 }
 
+.blogLink h2 {
+	color: #026191;
+	text-decoration: underline;
+}
+
+.blogLink:hover h2 {
+	color: #2279A8;
+	text-decoration: underline;
+}
+
 #blogList article{ 
 	background-color: #F5F5F5;
 	border-width: 0px 0px 1px 0px;
@@ -118,6 +128,10 @@ a:hover{
 	border-width: 0px 0px 1px 0px;
 	border-color: #888;
 	border-style: solid;
+}
+
+.blogHeader > p{
+	margin-left: 5%;
 }
 
 .blogTeaser{
